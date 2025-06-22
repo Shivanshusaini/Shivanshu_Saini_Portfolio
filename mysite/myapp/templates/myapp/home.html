@@ -1,0 +1,361 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Shivanshu Saini | Portfolio</title>
+  <link rel="stylesheet" href="{% static 'myapp/style.css' %}">
+
+</head>
+
+<body>
+
+  <!-- 🔹 Header Section -->
+  <header class="header">
+    <div class="container">
+      <img src="{% static 'myapp/images/MY PHOTO.jpg' %}" alt="Profile" class="profile-img">
+      <div class="header-text">
+        <h1>Shivanshu Saini</h1>
+        <p class="tagline">
+          TechieShivanshu | AI Enthusiast | Tech Innovator | Exploring AI and the Next Frontier of Technology |
+          Freelance Web Developer | Helping businesses create responsive websites
+        </p>
+        <!-- 🔹 Contact Button -->
+        <a class="contact-link" id="openBtn">Contact info</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- 🔹 About Me Section -->
+  <section class="bio-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate Python & Django developer aiming to solve real-world problems with elegant code and clean UI.
+        I'm constantly improving and love building new things.
+      </p>
+      <br>
+      <p>🤖 </p>
+      <br>
+      <p>
+        I love blending AI with web development — whether it's chatbots, automation, or smart features in
+        user-friendly apps.
+      </p>
+    </div>
+  </section>
+  <!-- 🔹 Skills Section -->
+  <section class="skills-section">
+    <div class="container">
+      <h2>My Skills</h2>
+
+      <div class="skills-container">
+        <div class="circle-skill" style="--percent: 90;">
+          <div class="inner-circle">
+            <span>HTML</span>
+            <span>90%</span>
+          </div>
+        </div>
+        <div class="circle-skill" style="--percent: 85;">
+          <div class="inner-circle">
+            <span>CSS</span>
+            <span>85%</span>
+          </div>
+        </div>
+        <div class="circle-skill" style="--percent: 75;">
+          <div class="inner-circle">
+            <span>JavaScript</span>
+            <span>75%</span>
+          </div>
+        </div>
+        <div class="circle-skill" style="--percent: 80;">
+          <div class="inner-circle">
+            <span>Django</span>
+            <span>80%</span>
+          </div>
+        </div>
+        <div class="circle-skill" style="--percent: 80;">
+          <div class="inner-circle">
+            <span>Python</span>
+            <span>80%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 🔹 Projects Section -->
+  <section class="projects-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="{% static 'myapp/images/p1.png' %}" alt="Project 1">
+          <h3>Smart Parking Finder</h3>
+          <p>A Django-based app to detect real-time parking space availability with P2P tech.</p>
+          <a href="https://youtu.be/AYHdjStfK6s?si=u6ZJB26veBygANdJ" target="_blank" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="{% static 'myapp/images/p2.png' %}" alt="Project 2">
+          <h3>Portfolio Website</h3>
+          <p>Responsive personal website made with Django & Bootstrap for online presence.</p>
+          <a href="https://www.linkedin.com/posts/shivanshu-saini-10117a258_i-am-a-passionate-and-detail-oriented-website-activity-7275202033593278464-9NGD?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD9ihxEBKC9PfUwmGXY0-WWPKJrSOaWcIH4" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="certificates-section">
+    <h2>Hackathon Certifications</h2>
+    <div class="certificate-grid">
+
+      <!-- 🔹 HACKHAZARDS '25 -->
+      <div class="certificate-card">
+        <div class="certificate-inner">
+          <div class="certificate-front">
+            <img src="{% static 'myapp/images/certificate1.jpg' %}" alt="Hackhazards Certificate">
+            <h3>HACKHAZARDS '25</h3>
+          </div>
+          <div class="certificate-back">
+            <h4>AI Assistant with Voice & Chat</h4>
+            <p>
+              🧠 Organized by: NAMESPACE <br />
+              👥 Team: TECHIEGUYS<br />
+              🧑‍💻 Role: Team Leader<br />
+              ⏱️ Duration: 210 hours<br />
+              📅 Date: April 2025
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🔹 Internal Hackathon @ TMU -->
+      <div class="certificate-card">
+        <div class="certificate-inner">
+          <div class="certificate-front">
+            <img src="{% static 'myapp/images/certificate2.jpg' %}" alt="TMU Internal Certificate">
+            <h3>Internal Hackathon </h3>
+          </div>
+          <div class="certificate-back">
+            <h4>Smart Parking Spot Finder</h4>
+            <p>
+              🏫 Organized by: TMU (Internal Hackathon)<br />
+              👥 Team: TECHIEGUYS<br />
+              🧑‍💻 Role: Backend + Design (Python)<br />
+              📍 Venue: TMU, Moradabad<br />
+              📅 Date: Feb 2025
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🔹 Peer Hackathon General -->
+      <div class="certificate-card">
+        <div class="certificate-inner">
+          <div class="certificate-front">
+            <img src="{% static 'myapp/images/certificate3.jpg' %}" alt="Pears Global Hackathon Certificate">
+            <h3>Pears Global Hackathon</h3>
+          </div>
+          <div class="certificate-back">
+            <h4>File Transfer & Video Call (P2P)</h4>
+            <p>
+              🌐 Organized by: Pears Global Community<br />
+              👥 Team: TECHIEGUYS<br />
+              🧑‍💻 Role: Full Stack Developer<br />
+              🧠 Tools: Python, Flask, JS<br />
+              📅 Date: Jan 2025
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 🔥 Achievements Section -->
+  <section class="achievements-section">
+    <h2>My Achievements</h2>
+
+    <div class="achievements-container">
+
+      <!-- Achievement 1 -->
+      <div class="achievement-box">
+        <img src="{% static 'myapp/images/achievent1.jpg' %}" alt="Award Photo">
+        <div class="achievement-text">
+          <h3>Entrepreneurship Best Innovator Award @ TMU</h3>
+          <p>
+            Recognized by TMU for outstanding innovation and entrepreneurial mindset.
+          </p>
+        </div>
+      </div>
+      <!-- Achievement 2-->
+      <div class="achievement-box">
+        <img src="{% static 'myapp/images/achievent2.jpg' %}" alt="Anchor IEEE">
+        <div class="achievement-text">
+          <h3>IEEE Smart Conference 2024 @ TMU</h3>
+          <p>Anchored the international conference and represented TMU as lead speaker.</p>
+        </div>
+      </div>
+
+      <div class="achievement-box">
+        <img src="{% static 'myapp/images/achievent3.jpg' %}" alt="Internal Hackathon">
+        <div class="achievement-text">
+          <h3>Internal Hackathon @ TMU</h3>
+          <p>Awarded by TMU for building a real-time parking detection system using Python .</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="education-section">
+    <h2>Education</h2>
+
+    <div class="edu-card">
+      <div class="edu-logo">🎓</div>
+      <div class="edu-content">
+        <h3>Teerthanker Mahaveer University (TMU), Moradabad</h3>
+        <p>Master of Computer Applications - MCA, Computer Engineering</p>
+        <p class="edu-date">Jul 2024 – Aug 2026</p>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-logo">🎓</div>
+      <div class="edu-content">
+        <h3>Teerthanker Mahaveer University (TMU)</h3>
+        <p>Bachelor of Computer Applications</p>
+        <p class="edu-date">2021 – 2024</p>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-logo">🏫</div>
+      <div class="edu-content">
+        <h3>Wilsonian College</h3>
+        <p>Intermediate, CBSE</p>
+        <p class="edu-date">2020 – 2021</p>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-logo">🎓</div>
+      <div class="edu-content">
+        <h3>Wilsonian College</h3>
+        <p>High School, ICSE</p>
+        <p class="edu-date">2019 –2020</p>
+      </div>
+    </div>
+  </section>
+  <!-- 🔹 Contact Section -->
+  <section class="contact-section">
+    <h2>Contact Me</h2>
+    <form id="contactForm" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+
+      <button type="submit" class="submit-btn">Send Message</button>
+      <!-- 🔔 SweetAlert2 CDN -->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+      {% if success %}
+      <script>
+        Swal.fire({
+          icon: 'success',
+          title: 'Message Sent!',
+          text: 'Thank you for contacting me 😊',
+          confirmButtonColor: '#f6b9b9'
+        });
+      </script>
+      {% endif %}
+
+    </form>
+
+  </section>
+
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeBtn">&times;</span>
+      <h1>Shivanshu Saini</h1>
+      <hr>
+      <h2>Contact Info</h2>
+      <p><strong>📞 Phone:</strong> +91-7078271839</p>
+      <p><strong>✉️ Email:</strong> shivanshusaini707@gmail.com</p>
+      <p><strong>📍 Address:</strong> Ashok Nagar, Moradabad, Uttar Pradesh, India</p>
+      <p><strong>🎂 Birthday:</strong> March 13</p>
+      <p><strong><a href="https://www.linkedin.com/in/shivanshu-saini-10117a258" target="_blank">LinkedIn</a></strong></p>
+    </div>
+  </div>
+
+  <script>
+
+    /* pop up contact */
+    const modal = document.getElementById("contactModal");
+    const openBtn = document.getElementById("openBtn");
+    const closeBtn = document.getElementById("closeBtn");
+
+    openBtn.onclick = () => {
+      modal.style.display = "block";
+    }
+
+    closeBtn.onclick = () => {
+      modal.style.display = "none";
+    }
+
+    window.onclick = (event) => {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    /*certificate */
+    // Scroll fade-in animation
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.3 });
+
+    document.querySelectorAll('.certificate-card').forEach(card => {
+      observer.observe(card);
+    });
+
+    /*Achievment */
+
+    // Fade-in effect on scroll
+    const boxes = document.querySelectorAll('.achievement-box');
+    const revealOnScroll = () => {
+      boxes.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top;
+        if (boxTop < window.innerHeight - 100) {
+          box.classList.add('visible');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('load', revealOnScroll);
+  </script>
+
+<!-- 🔹 Resume Download Section -->
+<section class="resume-section">
+  <div class="resume-card">
+    <h2>📄 Download My Resume</h2>
+    <p>Get a copy of my resume with all project and academic details.</p>
+    <a href="{% static 'myapp/Shivanshu_Saini_Resume.pdf' %}" class="download-btn" download><strong>Download Resume</strong></a>
+  </div>
+</section>
+  <!-- 🔹 Footer -->
+  <footer>
+    <p>© 2025 Shivanshu Saini | <a href="https://www.linkedin.com/in/shivanshu-saini-10117a258" target="_blank">LinkedIn</a> | <a href="https://github.com/Shivanshusaini"target="_blank">GitHub</a></p>
+  </footer>
+
+
+</body>
+
+</html>

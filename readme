@@ -1,0 +1,42 @@
+EDIT FIRST-LINKEDIN THEME
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    margin-top: 50px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border: 4px solid #f6b9b9;
+}
+
+.name {
+    font-size: 32px;
+    margin-top: 20px;
+    color: #2f23ce;
+}
+
+.bio {
+    font-size: 18px;
+    color: #666;
+    width: 60%;
+    margin: 20px auto;
+}
+
+/* EDITSECOND -PROJECT */
+/*EDIT THIRS ALL CONTENT AT SAME PAGE CORRECT HERE*/
+/*EDIT FOUTH CONTACT CARD 
+/* skil wheel*/
+/*certificate*/
+/*achievment*/
+/*contact form  - add Email Configuration for Contact Form in setting.py*/
